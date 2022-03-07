@@ -1,0 +1,142 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.wrapper{
+width: 100vw;
+height: 700vh;
+background-color: #191c32;
+color:#fff;
+}
+.navbar{
+display:flex;
+justify-content: space-between;
+padding:2em;
+}
+.brand h1{
+    margin-left: 100px;
+}
+.brand span{
+color:aqua;
+}
+.menu{
+display:flex;
+width: 50%;
+justify-content: space-around;
+}
+.menu li{
+list-style: none;
+}
+.menu a{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+color: #fff;
+text-decoration: none;
+}
+.menu.active{
+color: aqua;
+}
+.menu a:hover{
+background-color: aqua;
+color:#191c32;
+}
+.titulo-principal{
+position:relative;
+width: 751px;
+height: 122px;
+left: 95px;
+top: 40px;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 61px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.main h2{
+position:relative;
+width: 751px;
+height: 52px;
+left: 95px;
+top: 5px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+color:#FFFFFF   
+}
+.donwload-cv{
+position: relative;
+left: 95px;
+padding: 10px 20px;
+background-color: aqua;
+border: none;
+border-radius: 20px;
+margin-top: 10px;
+cursor:pointer;
+box-shadow: 1px 3px 11px -5px rgba(102,231,200, .69);
+}
+.donwload-cv:hover{
+background-color: #fff;
+box-shadow: none;
+}
+.main{
+margin: 0 auto;
+width: 95vw;
+height: 15vw;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+align-items: center;
+}
+.main img{
+position:static;
+
+width: 368px;
+height: 368px;
+left: 50px;
+top:0px;
+padding: 10px;
+margin-top: 20px;
+margin-left: 1px;
+}
+.sobremi{
+position:relative;
+left:95px;
+width: 900px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.sobremi p{
+width: 1200px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;    
+}
+.skills h2{
+position:relative;
+text-align: center;
+left:95px;
+width: 900px;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 30px;
+color: #FFFFFF;    
+}
