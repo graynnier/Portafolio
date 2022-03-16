@@ -140,3 +140,209 @@ font-size: 40px;
 line-height: 30px;
 color: #FFFFFF;    
 }
+.productos{
+    width: 1200px;
+    margin: 0 10px;
+    padding:30px;
+}
+.productos img{
+    position:static;
+    width: 130px;
+    height: 130px;
+    
+    
+}
+.producto p{
+    text-align:center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.productos li{
+    display: inline-block;
+    
+    width: 14%;
+    height: 3%;
+    vertical-align:top;
+    margin: 0 1%;
+    padding: 30px 20px;
+    box-sizing:border-box  ;
+    border-color: #FFFFFF;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.productos li:hover{
+    border-color: aqua;
+    
+}
+.hobbies h2{
+    position:relative;
+    text-align: center;
+    left:95px;
+    width: 900px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 30px;
+    color: #FFFFFF;    
+}
+.hobbies{
+    width: 1200px;
+    margin: 0 auto;
+    padding:30px;
+}
+.hobbies img{
+    position:static;
+    width: 130px;
+    height: 130px;
+}
+.hobbies p{
+    text-align:center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.hobbies li{
+    display: inline-block;
+    
+    width: 14%;
+    height: 3%;
+    vertical-align:top;
+    margin: 0 1%;
+    padding: 30px 20px;
+    box-sizing:border-box  ;
+    border-color: #FFFFFF;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.hobbies li:hover{
+    border-color: aqua;
+    
+}
+.formacion h2{
+    position:relative;
+    text-align: center;
+    left:95px;
+    width: 900px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 30px;
+    color: #FFFFFF;    
+}
+.formacion{
+    width: 1200px;
+    margin: 0 auto;
+    padding:30px;
+}
+.formacion img{
+    position:static;
+    width: 150px;
+    height: 150px;
+}
+.formacion p{
+    text-align:center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.formacion li{
+    display: inline-block;
+    background: #FFFFFF;
+    width: 16%;
+    height: 3%;
+    vertical-align:top;
+    margin: 0 1%;
+    padding: 30px 20px;
+    box-sizing:border-box  ;
+    border-color: #FFFFFF;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.formacion li:hover{
+    border-color: aqua;
+    
+}
+.experiencia h2{
+    position:relative;
+    text-align: center;
+    left:95px;
+    width: 900px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 30px;
+    color: #FFFFFF;    
+}
+.experiencia_1{
+    width: 1200px;
+    margin: 0 auto;
+    padding:30px;
+}
+.experiencia_1 img{
+    position:static;
+    width: 150px;
+    height: 125px;
+}
+.experiencia_1 p{
+    
+    font-size: 18px;
+    color: blue;
+    font-weight: bold;
+}
+.experiencia_1 li{
+    display: inline-block;
+    background: #FFFFFF;
+    width: 16%;
+    height: 3%;
+    vertical-align:top;
+    margin: 0 1%;
+    padding: 30px 20px;
+    box-sizing:border-box  ;
+    border-color: #FFFFFF;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.experiencia_1 li:hover{
+    border-color: aqua;
+    
+}
+.ano{
+    font-size: 18px;
+    color: blue;
+}
+.proyectos{
+    text-align: center;
+}
+.proyectos h2{
+    position:relative;
+    text-align: center;
+    left:95px;
+    width: 900px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 30px;
+    color: #FFFFFF;    
+}
+.proyectos img{
+    display: block;
+    width: 752px;
+    height: 406px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px auto;
+    margin-top: 40px;
+    justify-content: center;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #FFFFFF;
+}
+.proyectos img:hover{
+    opacity: 0.3;
+}
+
