@@ -1,346 +1,470 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+   /* 
+====================== HEADER ==========================
+*/
+html{
+    scroll-behavior: smooth;
+    animation-duration: 500ms;
 }
-.wrapper{
-width: 100vw;
-height: 700vh;
-background-color: #191c32;
-color:#fff;
-}
-.navbar{
-display:flex;
-justify-content: space-between;
-padding:2em;
-}
-.brand h1{
-    margin-left: 100px;
-}
-.brand span{
-color:aqua;
-}
-.menu{
-display:flex;
-width: 50%;
-justify-content: space-around;
-}
-.menu li{
-list-style: none;
-}
-.menu a{
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 25px;
-color: #fff;
-text-decoration: none;
-}
-.menu.active{
-color: aqua;
-}
-.menu a:hover{
-background-color: aqua;
-color:#191c32;
-}
-.titulo-principal{
-position:relative;
-width: 751px;
-height: 122px;
-left: 95px;
-top: 40px;
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 52px;
-line-height: 61px;
-color: #FFFFFF;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 24px 0px;
-}
-.main h2{
-position:relative;
-width: 751px;
-height: 52px;
-left: 95px;
-top: 5px;
-font-family: Raleway;
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 26px;
-color:#FFFFFF   
-}
-.donwload-cv{
-position: relative;
-left: 95px;
-padding: 10px 20px;
-background-color: aqua;
-border: none;
-border-radius: 20px;
-margin-top: 10px;
-cursor:pointer;
-box-shadow: 1px 3px 11px -5px rgba(102,231,200, .69);
-}
-.donwload-cv:hover{
-background-color: #fff;
-box-shadow: none;
-}
-.main{
-margin: 0 auto;
-width: 95vw;
-height: 15vw;
-display: grid;
-grid-template-columns: repeat(2,1fr);
-align-items: center;
-}
-.main img{
-position:static;
 
-width: 368px;
-height: 368px;
-left: 50px;
-top:0px;
-padding: 10px;
-margin-top: 20px;
-margin-left: 1px;
+body{
+    font-family: 'Montserrat', sans-serif;
 }
-.sobremi{
-position:relative;
-left:95px;
-width: 900px;
-font-family: Raleway;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-color: #FFFFFF;
+
+header{
+    background-color: #F5F5F5;
 }
-.sobremi p{
-width: 1200px;
-font-family: Raleway;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-color: #FFFFFF;    
+
+.menu{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
 }
-.skills h2{
-position:relative;
-text-align: center;
-left:95px;
-width: 900px;
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 30px;
-color: #FFFFFF;    
+
+.menu img, .menu p, .menu nav{
+    display: inline-block;
 }
-.productos{
-    width: 1200px;
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
     margin: 0 10px;
-    padding:30px;
 }
-.productos img{
-    position:static;
-    width: 130px;
-    height: 130px;
+
+
+.menu p::before{
+    content: '🚀';
 }
-.producto p{
-    text-align:center;
-    font-size: 12px;
-    font-weight: bold;
+
+.menu li:last-child{
+    font-weight: 700;
+    color: #584b4b;
 }
-.productos li{
-    display: inline-block;
-    
-    width: 14%;
-    height: 3%;
-    vertical-align:top;
-    margin: 0 1%;
-    padding: 30px 20px;
-    box-sizing:border-box  ;
-    border-color: #FFFFFF;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 10px;
+
+.menu a:hover{
+    color: #CFA616;
 }
-.productos li:hover{
-    border-color: aqua;
-    
+
+
+/* 
+====================== BANNER ==========================
+*/
+
+.contenedor-banner{
+    background-color: #F5F5F5;
 }
-.hobbies h2{
-    position:relative;
-    text-align: center;
-    left:95px;
-    width: 900px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 30px;
-    color: #FFFFFF;    
-}
-.hobbies{
-    width: 1200px;
+
+.banner{
+    width: 940px;
     margin: 0 auto;
-    padding:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
 }
-.hobbies img{
-    position:static;
-    width: 130px;
-    height: 130px;
+
+.informacion{
+    width: 65%;
 }
-.hobbies p{
-    text-align:center;
-    font-size: 12px;
-    font-weight: bold;
-}
-.hobbies li{
+
+.informacion{
     display: inline-block;
+}
+
+.informacion h1, .informacion p, .informacion ul{
+    margin-bottom: 20px;
+}
+
+.informacion h1{
+    font-size: 33px;
+    font-weight: 700;
+    color: #494141;
+}
+
+.informacion p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.informacion li::after{
+    content: '🡥';
+    color: #CFA616;
+}
+
+.informacion li{
+    display: inline;
+    margin: 0 20px 0 0;
+}
+
+.informacion a:hover{
+    color: #CFA616;
+}
+
+.informacion a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.banner img{
+    width: 30%;
+    border-radius: 200px;
     
-    width: 14%;
-    height: 3%;
-    vertical-align:top;
-    margin: 0 1%;
-    padding: 30px 20px;
-    box-sizing:border-box  ;
-    border-color: #FFFFFF;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 10px;
 }
-.hobbies li:hover{
-    border-color: aqua;
-    
+/*
+*************************************************************************
+*/
+/* 
+====================== SOBRE MI ==========================
+*/
+
+#contenedor-sobremi{
+    background-color: #EAF2FD;
 }
-.formacion h2{
-    position:relative;
-    text-align: center;
-    left:95px;
-    width: 900px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 30px;
-    color: #FFFFFF;    
-}
-.formacion{
-    width: 1200px;
+
+.sobremi{
+    width: 940px;
     margin: 0 auto;
-    padding:30px;
+    padding: 50px 0;
 }
-.formacion img{
-    position:static;
-    width: 150px;
-    height: 150px;
+
+.sobremi h2, .sobremi p{
+    margin-bottom: 20px;
 }
-.formacion p{
-    text-align:center;
-    font-size: 12px;
-    font-weight: bold;
+
+.sobremi h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #494141;
 }
-.formacion li{
+
+.sobremi p{
+    width: 80%;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.sobremi img{
+    width: 20%;
+}
+
+/* 
+====================== ADICIONALES ==========================
+*/
+
+.adicionales{
+    background-color: #F5F5F5;
+}
+
+#skills{
+    width: 940px;
+    margin: 0 auto;
+    padding: 60px 0 40px 0;
+    text-align: center;
+}
+
+#skills h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #494141;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#skills div{
     display: inline-block;
-    background: #FFFFFF;
     width: 16%;
-    height: 3%;
-    vertical-align:top;
-    margin: 0 1%;
-    padding: 30px 20px;
-    box-sizing:border-box  ;
-    border-color: #FFFFFF;
-    border-width: 5px;
-    border-style: solid;
+    height: 140px;
+    background-color: #ffffff;
+    position: relative;
+    margin-right: 10px;
     border-radius: 10px;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.08);
 }
-.formacion li:hover{
-    border-color: aqua;
-    
+
+#skills img{
+    width: 50%;
+    position: absolute;
+    top: 20px;
+    left: 25px;
 }
-.experiencia h2{
-    position:relative;
-    text-align: center;
-    left:95px;
-    width: 900px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 30px;
-    color: #FFFFFF;    
+
+#skills p{
+    position: absolute;
+    top: 107px;
+    left: 13px;
+    font-weight: 600;
 }
-.experiencia_1{
-    width: 1200px;
+/* Hobbies */
+
+#hobbies{
+    width: 940px;
     margin: 0 auto;
-    padding:30px;
+    padding: 30px 0 60px 0;
+    text-align: center;
 }
-.experiencia_1 img{
-    position:static;
-    width: 150px;
-    height: 125px;
+
+#hobbies h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #494141;
+    text-align: center;
+    margin-bottom: 40px;
 }
-.experiencia_1 p{
-    
-    font-size: 18px;
-    color: blue;
-    font-weight: bold;
-}
-.experiencia_1 li{
+
+#hobbies div{
     display: inline-block;
-    background: #FFFFFF;
     width: 16%;
-    height: 3%;
-    vertical-align:top;
-    margin: 0 1%;
-    padding: 30px 20px;
-    box-sizing:border-box  ;
-    border-color: #FFFFFF;
-    border-width: 5px;
-    border-style: solid;
+    height: 140px;
+    background-color: #ffffff;
+    position: relative;
+    margin-right: 10px;
     border-radius: 10px;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.08);
 }
-.experiencia_1 li:hover{
-    border-color: aqua;
-    
+
+#hobbies img{
+    width: 50%;
+    position: absolute;
+    top: 20px;
+    left: 25px;
 }
-.ano{
-    font-size: 18px;
-    color: blue;
+
+#hobbies p{
+    position: absolute;
+    top: 107px;
+    left: 11px;
+    font-weight: 600;
+}   
+/* 
+====================== FORMACION ==========================
+*/
+
+.contenedor-formacion{
+    background-color: #EAF2FD;
 }
-.proyectos{
+
+#formacion{
+    width: 940px;
+    margin: 0 auto;
     text-align: center;
+    padding: 70px 0;
 }
-.proyectos h2{
-    position:relative;
+
+#formacion h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #494141;
     text-align: center;
-    left:95px;
-    width: 900px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 30px;
-    color: #FFFFFF;    
+    margin-bottom: 30px;
 }
-.proyectos img{
-    display: block;
-    width: 752px;
-    height: 406px;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 0px auto;
-    margin-top: 40px;
+
+.contenido{
+    display: inline-block;
+}
+
+.contenido div{
+    width: 96%;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
     justify-content: center;
-    transition: 400ms;
-    box-shadow: 10px 10px 30px 15px #FFFFFF;
+    align-items: center;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.08);
 }
-.proyectos img:hover{
-    opacity: 0.3;
+
+.logo_iupsm{
+    width: 60%;
 }
+.logo_ula{
+    width: 65%;
+}
+.logo_uchile{
+    width: 40%;
+}
+
+.contenido div{
+    margin: 20px 5px;
+}
+
+.contenido p{
+    margin: 5px 0;
+}
+
+.curso{
+    font-weight: 600;
+}
+/* 
+====================== EXPERIENCIA ==========================
+*/
+
+.contenedor-experiencia{
+    background-color: #F5F5F5;
+}
+
+#experiencia{
+    width: 940px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+#experiencia h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #494141;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenido-experiencia img{
+    display: inline-block;
+    width: 65%;
+    margin: 40px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
+}
+
+.contenido-experiencia div{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    padding: 20px 10px;
+    margin: 140px 0;
+    text-align: center;
+}
+
+.contenido-experiencia h3{
+    font-weight: 600;
+    font-size: 20px;
+}    
+
+.contenido-experiencia h3, .contenido-experiencia p{
+    padding: 5px 0;
+}
+
+.btn-repo, 
+.btn-demo{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.btn-repo:hover, 
+.btn-demo:hover{
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
+}
+
+
+.btn-repo{
+    padding: 7px 25px;
+    color: #2A7AE4 ;
+    border: 1px solid #2A7AE4;
+    margin-bottom: 5px;
+}
+
+.btn-demo{
+    padding: 7px 31px;
+    color: #ffffff;
+    background-color: #2A7AE4;
+}
+/* 
+====================== FORMULARIO ==========================
+*/
+
+.contenedor-formulario{
+    background-color: #EAF2FD ;
+}
+
+.formulario{
+    width: 940px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.formulario img{
+    width: 50%;
+    height: 520px;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.formulario div{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.formulario h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #494141;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formulario p{
+    text-align: justify;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.formulario input{
+    display: block;
+    margin: 20px 0;
+}
+
+.formulario input, .formulario textarea{
+    padding: 15px 64% 15px 7px ;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formulario input, .formulario textarea{
+    outline: 0;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.05);
+}
+
+.formulario textarea{
+    resize: none;
+}
+
+.formulario input:last-child{
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: #2A7AE4;
+    font-weight: 500;
+}
+
+.formulario input:last-child:hover{
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
+    cursor: pointer;
+}
+
+
+/* 
+====================== FOOTER ==========================
+*/
+
+.contenido_footer{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contenido_footer p{
+    display: block;
+    padding: 5px 0;
+}
+  
 
