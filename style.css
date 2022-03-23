@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    background-color: #F5F5F5;
+    background-color: #140257;
 }
 
 .menu{
@@ -25,6 +25,7 @@ header{
 
 .menu img, .menu p, .menu nav{
     display: inline-block;
+    color:#FFFFFF;
 }
 
 nav li{
@@ -33,18 +34,19 @@ nav li{
 
 nav a{
     text-decoration: none;
-    color: #000000;
+    color: #FFFFFF;
     margin: 0 10px;
 }
 
 
 .menu p::before{
     content: '🚀';
+    
 }
 
 .menu li:last-child{
     font-weight: 700;
-    color: #584b4b;
+    color: #FFFFFF;
 }
 
 .menu a:hover{
@@ -57,7 +59,7 @@ nav a{
 */
 
 .contenedor-banner{
-    background-color: #F5F5F5;
+    background-color: #140257;
 }
 
 .banner{
@@ -84,12 +86,13 @@ nav a{
 .informacion h1{
     font-size: 33px;
     font-weight: 700;
-    color: #494141;
+    color: #FFFFFF;
 }
 
 .informacion p{
     font-size: 20px;
     line-height: 25px;
+    color:#FFFFFF
 }
 
 .informacion li::after{
@@ -108,7 +111,7 @@ nav a{
 
 .informacion a{
     text-decoration: none;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .banner img{
@@ -124,7 +127,7 @@ nav a{
 */
 
 #contenedor-sobremi{
-    background-color: #EAF2FD;
+    background-color: whitesmoke;
 }
 
 .sobremi{
@@ -140,17 +143,19 @@ nav a{
 .sobremi h2{
     font-size: 25px;
     font-weight: 600;
-    color: #494141;
+    color: #000000;
 }
 
 .sobremi p{
     width: 80%;
     text-align: justify;
     line-height: 20px;
+    color:#000000;
 }
 
 .sobremi img{
     width: 20%;
+    
 }
 
 /* 
@@ -158,7 +163,7 @@ nav a{
 */
 
 .adicionales{
-    background-color: #F5F5F5;
+    background-color: #140257;
 }
 
 #skills{
@@ -171,7 +176,7 @@ nav a{
 #skills h2{
     font-size: 25px;
     font-weight: 600;
-    color: #494141;
+    color: #FFFFFF;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -180,7 +185,7 @@ nav a{
     display: inline-block;
     width: 16%;
     height: 140px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     position: relative;
     margin-right: 10px;
     border-radius: 10px;
@@ -212,7 +217,7 @@ nav a{
 #hobbies h2{
     font-size: 25px;
     font-weight: 600;
-    color: #494141;
+    color: #FFFFFF;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -221,7 +226,7 @@ nav a{
     display: inline-block;
     width: 16%;
     height: 140px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     position: relative;
     margin-right: 10px;
     border-radius: 10px;
@@ -240,13 +245,14 @@ nav a{
     top: 107px;
     left: 11px;
     font-weight: 600;
+    
 }   
 /* 
 ====================== FORMACION ==========================
 */
 
 .contenedor-formacion{
-    background-color: #EAF2FD;
+    background-color: #140257;
 }
 
 #formacion{
@@ -259,13 +265,14 @@ nav a{
 #formacion h2{
     font-size: 25px;
     font-weight: 600;
-    color: #494141;
+    color: #FFFFFF;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .contenido{
     display: inline-block;
+
 }
 
 .contenido div{
@@ -295,6 +302,7 @@ nav a{
 
 .contenido p{
     margin: 5px 0;
+    color:#FFFFFF;
 }
 
 .curso{
@@ -305,7 +313,7 @@ nav a{
 */
 
 .contenedor-experiencia{
-    background-color: #F5F5F5;
+    background-color: #d6d6e9;
 }
 
 #experiencia{
@@ -364,22 +372,22 @@ nav a{
 
 .btn-repo{
     padding: 7px 25px;
-    color: #2A7AE4 ;
-    border: 1px solid #2A7AE4;
+    color: #140257 ;
+    border: 1px solid #140257;
     margin-bottom: 5px;
 }
 
 .btn-demo{
     padding: 7px 31px;
     color: #ffffff;
-    background-color: #2A7AE4;
+    background-color: #140257;
 }
 /* 
 ====================== FORMULARIO ==========================
 */
 
 .contenedor-formulario{
-    background-color: #EAF2FD ;
+    background-color: #140257;
 }
 
 .formulario{
@@ -404,7 +412,7 @@ nav a{
 .formulario h2{
     font-size: 25px;
     font-weight: 600;
-    color: #494141;
+    color: #FFFFFF;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -413,6 +421,7 @@ nav a{
     text-align: justify;
     line-height: 20px;
     margin: 10px 0;
+    color:#FFFFFF;
 }
 
 .formulario input{
@@ -460,11 +469,14 @@ nav a{
     margin: 0 auto;
     text-align: center;
     padding: 20px 0;
+    color:#000000;
+    
 }
 
 .contenido_footer p{
     display: block;
     padding: 5px 0;
+    
 }
   
 
