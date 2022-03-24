@@ -1,5 +1,5 @@
    /* 
-====================== HEADER ==========================
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Seccion Header %%%%%%%%%%%%%%%%%%%%%%%%%%%
 */
 html{
     scroll-behavior: smooth;
@@ -55,7 +55,7 @@ nav a{
 
 
 /* 
-====================== BANNER ==========================
+%%%%%%%%%%%%%%%%%%%%%%%%%% banner %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 */
 
 .contenedor-banner{
@@ -123,7 +123,7 @@ nav a{
 *************************************************************************
 */
 /* 
-====================== SOBRE MI ==========================
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Seccion Sobre mi %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 */
 
 #contenedor-sobremi{
@@ -159,7 +159,7 @@ nav a{
 }
 
 /* 
-====================== ADICIONALES ==========================
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Seccion habilidades %%%%%%%%%%%%%%%%%%%%%%%%%%%
 */
 
 .adicionales{
@@ -248,7 +248,7 @@ nav a{
     
 }   
 /* 
-====================== FORMACION ==========================
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% seccion formacion %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 */
 
 .contenedor-formacion{
@@ -309,7 +309,7 @@ nav a{
     font-weight: 600;
 }
 /* 
-====================== EXPERIENCIA ==========================
+%%%%%%%%%%%%%%%%%%%%%%%%% seccion experiencia %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 */
 
 .contenedor-experiencia{
@@ -383,7 +383,7 @@ nav a{
     background-color: #140257;
 }
 /* 
-====================== FORMULARIO ==========================
+%%%%%%%%%%%%%%%%%%%%%%%% Seccion formulario %%%%%%%%%%%%%%%%%%%%%%%%
 */
 
 .contenedor-formulario{
@@ -461,7 +461,7 @@ nav a{
 
 
 /* 
-====================== FOOTER ==========================
+%%%%%%%%%%%%%%%%%%%%%%% Seccion footer %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 */
 
 .contenido_footer{
@@ -478,5 +478,146 @@ nav a{
     padding: 5px 0;
     
 }
-  
+/* 
+%%%%%%%%%%%%%%%%%%%%%%%%% Agregando el responsive %%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+
+
+@media screen and (max-width: 1024px ) {
+
+    /* @@@@@@@@@@@@@@ MENU @@@@@@@@@@@@@@@@@@@@@@@@@ */
+    
+    .menu, .banner, .sobremi, #skills, #hobbies, .contenido_footer{
+        width: auto
+    }
+
+    .menu{
+        padding: 40px;
+    }
+    
+    .menu p, .menu nav{
+        font-size: 18px;
+    }
+
+
+    .menu a:not(.email){
+        display: none;
+    }
+
+    /* @@@@@@@@@@@@@@ BANNER @@@@@@@@@@@@@@@@@@@ */
+
+    .banner{
+        width: auto;
+        padding: 0 40px;
+        padding-bottom: 30px;
+    }
+
+    /* @@@@@@@@@@@@@@ SOBRE MI @@@@@@@@@@@@@@@@@@ */
+
+    .sobremi{
+        padding: 50px 40px;
+    }
+
+    .sobremi p{
+        width: auto;
+    }
+
+    /* @@@@@@@@@@@@@@@@@@@@@@@ SKILLS @@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+    #skills div{
+        display: inline-block;
+        width: 15%;
+        height: 140px;
+        background-color: #ffffff;
+        position: relative;
+        margin: 0 10px 10px 10px;
+        border-radius: 10px;
+    }
+
+    #hobbies div{
+        display: inline-block;
+        width: 15%;
+        height: 140px;
+        background-color: #ffffff;
+        position: relative;
+        margin: 0 10px 10px 10px;
+        border-radius: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 480px ) {
+
+    /* @@@@@@@@@@@@@@@@@@@@@ MENU @@@@@@@@@@@@@@@@@@@@@@@@@ */
+    
+    .menu, .banner, .sobremi, #skills, #hobbies, .contenido_footer{
+        width: auto;
+    }
+
+    .menu{
+        padding: 20px;
+    }
+    
+    .menu p, .menu nav{
+        
+        font-size: 14px;
+    }
+
+
+    .menu a:not(.email){
+        display: none;
+    }
+
+    /*@@@@@@@@@@@@@@@@@@@@ BANNER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+    .banner{
+        position: relative;
+    }
+
+    .informacion{
+        width: auto;
+        margin-top: 160px;
+        padding: 0 20px;
+    }
+
+    .banner_img{
+        position: absolute;
+        top: 10px;
+        left: 35%
+    }
+
+    /* @@@@@@@@@@@@@@@@@@ SOBRE MI @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+    .sobremi{
+        padding: 50px 20px;
+    }
+
+    .sobremi p{
+        width: auto;
+    }
+
+    /* %%%%%%%%%%%%%%%%% SKILLS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+    #skills div{
+        display: inline-block;
+        width: 30%;
+        height: 140px;
+        background-color: #ffffff;
+        position: relative;
+        margin: 0 10px 10px 10px;
+        border-radius: 10px;
+    }
+
+    #hobbies div{
+        display: inline-block;
+        width: 30%;
+        height: 140px;
+        background-color: #ffffff;
+        position: relative;
+        margin: 0 10px 10px 10px;
+        border-radius: 10px;
+    }
+    
+}  
 
